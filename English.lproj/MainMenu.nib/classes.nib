@@ -1,0 +1,60 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                modifiersChanged = id; 
+                preferredColoursChanged = id; 
+                setAllowCode = id; 
+                setLiveMatching = id; 
+                showDetails = id; 
+                switchTab = id; 
+                toggleMatching = id; 
+            }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                allowCodeCheck = NSButton; 
+                captureColorWell = NSColorWell; 
+                detailsButton = NSButton; 
+                detailsDrawer = NSDrawer; 
+                detailsOutlineView = NSOutlineView; 
+                findInfoView = NSView; 
+                findMatchRegEx = NSTextView; 
+                findMatchText = NSTextView; 
+                findRegExModifiersView = NSView; 
+                infoView = NSView; 
+                matchColorWell = NSColorWell; 
+                modifierMatrix = NSMatrix; 
+                regExAbortedView = NSView; 
+                regExInvalidView = NSView; 
+                regExModifiersView = NSView; 
+                regExProgressIndicator = NSProgressIndicator; 
+                regExProgressIndicatorView = NSView; 
+                regExStatusView = NSView; 
+                replaceColorWell = NSColorWell; 
+                replaceInfoView = NSView; 
+                replaceMatchRegEx = NSTextView; 
+                replaceMatchText = NSTextView; 
+                replaceRegExModifiersView = NSView; 
+                replaceReplaceRegEx = NSTextView; 
+                replaceResultText = NSTextView; 
+                shadeOverlappingCaptures = NSButton; 
+                splitInfoView = NSView; 
+                splitMatchRegEx = NSTextView; 
+                splitMatchText = NSTextView; 
+                splitRegExModifiersView = NSView; 
+                splitResultTableView = NSTableView; 
+                tabView = NSTabView; 
+                toggleMatchingButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
